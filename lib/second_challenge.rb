@@ -8,6 +8,5 @@ def second_challenge
   i = []
 groceries.each do |store, data|
   data.each |attr, value|
-  return i << value
    end
 end
