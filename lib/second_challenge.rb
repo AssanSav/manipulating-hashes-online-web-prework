@@ -6,5 +6,5 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 array = groceries.values 
-array.join(" ")
+array.to_s
 end
