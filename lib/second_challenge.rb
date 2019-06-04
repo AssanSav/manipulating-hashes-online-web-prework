@@ -6,6 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 groceries.each do |store, data|
-  data.collect {|attr, value| return value.values}
+  data.each {|attr, value| return value.values}
    end
 end
