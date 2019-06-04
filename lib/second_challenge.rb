@@ -5,7 +5,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  i = {}
+  i = []
 groceries.each do |store, data|
   data.each |attr, value|
   return i << value
